@@ -5,7 +5,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 
-const Index = () => {
+const LandingPage = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Hero />
@@ -18,4 +18,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default LandingPage;
