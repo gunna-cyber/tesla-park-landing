@@ -51,7 +51,12 @@ export const Hero = () => {
           </p>
           
           <div className="animate-tesla-fade" style={{ animationDelay: '0.6s' }}>
-            <Button variant="hero" size="xl" className="px-16 py-8 text-xl font-bold">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="px-16 py-8 text-xl font-bold"
+              onClick={() => window.location.href = '/auth'}
+            >
               Get Started
             </Button>
           </div>
